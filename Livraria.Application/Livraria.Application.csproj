@@ -10,4 +10,11 @@
     <ProjectReference Include="..\Livraria.Domain\Livraria.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+    <Folder Include="Services\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Abstractions\" />
+  </ItemGroup>
+
 </Project>

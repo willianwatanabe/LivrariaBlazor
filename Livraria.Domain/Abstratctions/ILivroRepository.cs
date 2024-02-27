@@ -14,5 +14,6 @@ namespace Livraria.Domain.Abstratctions
         Task<Livro> AdicionarLivro(Livro livro);
         Task ObterLivros(int id);
         Task AtualizarLivro(Livro livro);
+        Task DeletarLivro(int id);
     }
 }
